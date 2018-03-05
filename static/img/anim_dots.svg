@@ -1,0 +1,38 @@
+<svg version="1.1" id="zapio_dots_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<g id="dots" style="opacity:0;">
+	<circle id="dot_center" style="fill:none;" cx="200" cy="200" r="3" />
+	<circle id="dot_1" style="fill:#1C1C1C;" cx="200" cy="3.09" r="3" data-offset-x="0" data-offset-y="-10" />
+	<circle id="dot_2" style="fill:#1C1C1C;" cx="60.68" cy="60.94" r="3" data-offset-x="-7" data-offset-y="-7" />
+	<circle id="dot_3" style="fill:#1C1C1C;" cx="3.1" cy="199.85" r="3" data-offset-x="-10" data-offset-y="0" />
+	<circle id="dot_4" style="fill:#1C1C1C;" cx="60.99" cy="339.06" r="3" data-offset-x="-7" data-offset-y="7" />
+	<circle id="dot_5" style="fill:#1C1C1C;" cx="200" cy="396.91" r="3" data-offset-x="0" data-offset-y="10" />
+	<circle id="dot_6" style="fill:#1C1C1C;" cx="339.32" cy="339.06" r="3" data-offset-x="7" data-offset-y="7" />
+	<circle id="dot_7" style="fill:#1C1C1C;" cx="396.9" cy="200.15" r="3" data-offset-x="10" data-offset-y="0" />
+	<circle id="dot_8" style="fill:#1C1C1C;" cx="339.32" cy="60.94" r="3" data-offset-x="7" data-offset-y="-7" />
+	<circle id="dot_9" style="fill:#1C1C1C; display:none;" cx="200" cy="200" r="3" />
+	<circle id="dot_10" style="fill:#1C1C1C; display:none;" cx="200" cy="200" r="3" />
+	<circle id="dot_11" style="fill:#1C1C1C; display:none;" cx="200" cy="200" r="3" />
+	<circle id="dot_12" style="fill:#1C1C1C; display:none;" cx="200" cy="200" r="3" />
+</g>
+
+<g id="machine_guide" style="display:none;">
+	<polygon style="fill:#ff0000;" points="252.54,134.9 252.54,258.45 199.68,279.6 146.51,258.45 146.51,134.9 
+		199.68,156.04"/>
+	<polygon style="fill:#ff0000;" points="252.54,134.9 199.68,156.04 146.51,134.9 199.68,113.75"/>
+</g>
+<g id="phase2_dots" style="display:none;">
+	<circle id="phase2_dot_1" style="fill:#D0D0D0;" cx="231.4" cy="167.52" r="3.02"/>
+	<circle id="phase2_dot_2" style="fill:#D0D0D0;" cx="231.4" cy="194.41" r="3.02"/>
+	<circle id="phase2_dot_3" style="fill:#D0D0D0;" cx="231.4" cy="221.3" r="3.02"/>
+	<circle id="phase2_dot_4" style="fill:#D0D0D0;" cx="231.4" cy="248.18" r="3.02"/>
+	<circle id="phase2_dot_5" style="fill:#D0D0D0;" cx="200.28" cy="179.31" r="3.02"/>
+	<circle id="phase2_dot_6" style="fill:#D0D0D0;" cx="200.28" cy="206.19" r="3.02"/>
+	<circle id="phase2_dot_7" style="fill:#D0D0D0;" cx="200.28" cy="233.08" r="3.02"/>
+	<circle id="phase2_dot_8" style="fill:#D0D0D0;" cx="200.28" cy="259.96" r="3.02"/>
+	<circle id="phase2_dot_9" style="fill:#D0D0D0;" cx="169.17" cy="167.52" r="3.02"/>
+	<circle id="phase2_dot_10" style="fill:#D0D0D0;" cx="169.17" cy="194.41" r="3.02"/>
+	<circle id="phase2_dot_11" style="fill:#D0D0D0;" cx="169.17" cy="221.3" r="3.02"/>
+	<circle id="phase2_dot_12" style="fill:#D0D0D0;" cx="169.17" cy="248.18" r="3.02"/>
+</g>
+</svg>

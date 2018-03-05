@@ -1,0 +1,284 @@
+*{
+  border-radius: 0px !important;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+html, body {
+    /* height: 100%; */
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+/* -----  1.1 Font Definitions  --------------------------------------------- */
+
+/* Moderat */
+@font-face {
+    font-family: 'Moderat';
+    src: url('../fonts/moderat_bold.eot');
+    src: url('../fonts/moderat_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moderat_bold.woff2') format('woff2'),
+         url('../fonts/moderat_bold.woff') format('woff'),
+         url('../fonts/moderat_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('../fonts/moderat_regular.eot');
+    src: url('../fonts/moderat_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moderat_regular.woff2') format('woff2'),
+         url('../fonts/moderat_regular.woff') format('woff'),
+         url('../fonts/moderat_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, figure, pre {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 0 1.5rem;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Moderat',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.25em;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 1.667em;
+    line-height: 1.15em;
+    opacity: .5;
+    color: #4a4a4a;
+    margin-bottom: 3.5rem;
+}
+
+.side_content h2 {
+    font-size: 1.75rem;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+.wrap {
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    max-width: 36rem;
+}
+
+@media (min-width: 38.25em){
+    .wrap {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.intro_content {
+    position: relative;
+}
+
+
+.arrow_button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 100%;
+    padding: 1.25em 0;
+    background: url(http://www.zapio.com/assets/images/xicon_arrow,402x.png.pagespeed.ic.9fZvGqsiwJ.png) no-repeat center center;
+    background-size: 31px;
+    cursor: pointer;
+}
+
+
+
+.text a:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: .1em;
+    background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #E10F24), color-stop(0.5, #081498), color-stop(1, #E10F24) );
+    background-image: -o-linear-gradient(left,#e10f24 0%,#081498 50%,#e10f24 100%);
+    background-image: -webkit-linear-gradient(left,#e10f24 0%,#081498 50%,#e10f24 100%);
+    background-image: -webkit-linear-gradient(right,#e10f24 0%,#081498 50%,#e10f24 100%);
+    background-image: -o-linear-gradient(right,#e10f24 0%,#081498 50%,#e10f24 100%);
+    background-image: linear-gradient(to left,#e10f24 0%,#081498 50%,#e10f24 100%);
+    background-size: 200%;
+}
+
+
+.text a:after, .text a:hover {
+    -webkit-transition: -webkit-transform 300ms ease, background-position 5s ease;
+    -o-transition: -o-transform 300ms ease, background-position 5s ease;
+    transition: transform 300ms ease, background-position 5s ease;
+}
+
+.rev_right {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 305px);
+    padding-left: 100px;
+}
+
+@media (max-width: 30em){
+    .rev_right {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+
+#anim_side_content {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 405px);
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+
+@media (max-width: 30em){
+    #anim_side_content {
+        display: block;
+        width: 100%;
+        margin-top: -170px;
+        padding-left: 0;
+    }
+}
+
+
+.sky_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/zapio-header-gradient_1px.png) repeat-x center center;
+    background-size: auto 100%;
+    opacity:0.6;
+}
+
+.building_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 75%;
+    background: url(../img/zapio-header-building.png) no-repeat left bottom;
+    background-size: auto 100%;
+}
+
+#machine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+         -o-transform: scale(0.7);
+            transform: scale(0.7);
+    z-index: 20;
+    background: url(../img/zapio-machine-transparency_filled.png) no-repeat center center;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    width: 400px;
+    height: 400px;
+}
+
+.ajax-loader {
+    display: none;
+    background: #833989 url(../img/spin.gif) no-repeat center center;
+    -webkit-background-size: auto 60%;
+    background-size: auto 60%;
+}
+
+.side_content {
+    position: relative;
+}
+
+/*=================== Footer ===========================================*/
+
+.footer-widget-bar {
+    background-color: #33363b;
+    width: 100%;
+}
+
+.footer-wrapper {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.widget-area{
+    width: 300px;
+    padding: 0;
+}
+
+.widget{
+    padding: 10px 0;
+}
+
+.widget-area h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.footer-widget-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-widget-bar ul li {}
+
+.footer-widget-bar ul li a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright {
+    background-color: #26272b;
+    color: #FFF;
+    text-align: center;
+}
+
+.border {
+    border-color: #dbd8d8;
+}
+
+.copyright .border {
+    padding: 10px 0;
+    border-top: 1px solid #cfd0d3;
+}
